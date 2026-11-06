@@ -1,0 +1,1 @@
+# https://blog.teclado.com/side-values-in-tkinters-pack-geometry-manager/
