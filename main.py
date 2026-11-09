@@ -22,14 +22,19 @@ root.mainloop()
 root = tk.Tk()
 root.geometry("600x400")
 
+# Rectangle_1 frame
 frame1 = tk.Frame(root, bg="green")
 frame1.pack(ipadx=10, ipady=10, expand=True, side="left", fill="both")
+
+# Rectangle_2 frame
+frame2 = tk.Frame(root, bg="red")
+frame2.pack(ipadx=10, ipady=10, expand=True, fill="both")
 
 #rectangle_1 = tk.Label(root, text="Rectangle 1", bg="green", fg="white")
 #rectangle_1.pack(ipadx=10, ipady=10, expand=True, side="left", fill="both")
 
-rectangle_2 = tk.Label(root, text="Rectangle 2", bg="red", fg="white")
-rectangle_2.pack(ipadx=10, ipady=10, expand=True, fill="both")
+#rectangle_2 = tk.Label(root, text="Rectangle 2", bg="red", fg="white")
+#rectangle_2.pack(ipadx=10, ipady=10, expand=True, fill="both")
 
 rectangle_3 = tk.Label(root, text="Rectangle 3", bg="blue", fg="white")
 rectangle_3.pack(ipadx=10, ipady=10, expand=True, side="left", fill="both")
