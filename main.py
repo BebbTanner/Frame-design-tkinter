@@ -31,12 +31,17 @@ frame2 = tk.Frame(root, bg="red")
 frame2.pack(ipadx=10, ipady=10, expand=True, fill="both")
 
 # Rectangle_3 frame
-frame2 = tk.Frame(root, bg="blue")
-frame2.pack(ipadx=10, ipady=10, expand=True, side="left", fill="both")
+frame3 = tk.Frame(root, bg="blue")
+frame3.pack(ipadx=10, ipady=10, expand=True, side="left", fill="both")
 
 # Rectangle_4 frame
-frame2 = tk.Frame(root, bg="yellow")
-frame2.pack(ipadx=10, ipady=10, expand=True, fill="both")
+frame4 = tk.Frame(root, bg="yellow")
+frame4.pack(ipadx=10, ipady=10, expand=True, fill="both")
+
+# Rectangle_5 frame
+frame5 = tk.Frame(root, bg="orange")
+frame5.pack(ipadx=10, ipady=10, expand=True, side="left", fill="both")
+
 
 #rectangle_1 = tk.Label(root, text="Rectangle 1", bg="green", fg="white")
 #rectangle_1.pack(ipadx=10, ipady=10, expand=True, side="left", fill="both")
